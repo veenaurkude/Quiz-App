@@ -6,7 +6,7 @@ const Quiz = () => {
             selectedAnswer,questionIndex, nextQuestion, showTheResult }  = useContext(DataContext);
 
     return (
-        <section className="bg-dark text-white" style={{ display: `${showQuiz ? 'block' : 'none'}` }}>
+        <section className="bg-dark bg-gradient text-white" style={{ display: `${showQuiz ? 'block' : 'none'}` }}>
             <div className="container">
                 <div className="row vh-100 align-items-center justify-content-center">
                     <div className="col-lg-8">
